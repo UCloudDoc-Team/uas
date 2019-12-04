@@ -5,3 +5,6 @@
 1 当前UAS服务针对的是ULB下Vserver级别，所以需要确保有Vserver的资源。
 
 2 伸缩组需要自制镜像，请确保已有可用的主机镜像供后续创建主机使用。
+
+![](http://uas-doc.cn-bj.ufileos.com/uas-create001.png)
+
