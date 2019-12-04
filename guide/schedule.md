@@ -4,6 +4,8 @@
 
 定时任务使用UNIX的CRON语法。
 
+![](http://uas-doc.cn-bj.ufileos.com/schedule001.png)
+
 具体语法如下：
 
 | 值   | 类型 | 说明                                                         | 支持的特殊字符 |
