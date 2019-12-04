@@ -1,4 +1,4 @@
-<div class="sidebar_title icon_uas"> 弹性伸缩 UAS</div>
+<div class="sidebar_title icon__uas"> 弹性伸缩 UAS</div>
 
 * [概览](compute/uas/overview)
 
