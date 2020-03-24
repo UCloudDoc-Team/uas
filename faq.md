@@ -6,7 +6,7 @@ A:当前UAS处于小规模内测阶段，不会对内测用户进行收费。公
 
 ### Q:UAS 定时任务如何设置？
 
-A:UAS的定时任务采用5域的Cron语法进行设置。 详情请见[定时任务](http://docs.ucloud.cn/compute/uas/guide/schedule)
+A:UAS的定时任务采用5域的Cron语法进行设置。 详情请见[定时任务](http://docs.ucloud.cn/uas/guide/schedule)
 
 ### Q:UAS 支持哪些地域？
 
