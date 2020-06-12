@@ -1,6 +1,5 @@
 # 弹性伸缩 UAS
 
-
 * 产品简介
     * [什么是弹性伸缩](/uas/introduction/concept)
 * 操作指南
@@ -11,6 +10,3 @@
     * [删除伸缩组](/uas/guide/deletetask)
 * [伸缩规则](/uas/rules) 
 * [FAQ](/uas/faq)
-
-
-
