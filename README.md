@@ -1,7 +1,7 @@
 # 弹性伸缩 UAS
 
 * 产品简介
-    * [什么是弹性伸缩.](/uas/introduction/concept)
+    * [什么是弹性伸缩](/uas/introduction/concept)
 * 操作指南
     * [创建伸缩组](/uas/guide/createtask)
     * [创建主机配置](/uas/guide/createhost)
