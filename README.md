@@ -6,9 +6,6 @@
     * [创建伸缩组](/uas/guide/createtask)
     * [创建主机配置](/uas/guide/createhost)
     * [启动规则](/uas/guide/startrules)
-    <!--
-    * [定时任务](/uas/guide/schedule)
-    -->
     * [删除伸缩组](/uas/guide/deletetask)
 * [伸缩规则](/uas/rules) 
 * [FAQ](/uas/faq)
