@@ -1,11 +1,19 @@
-# 创建主机配置
+# 绑定主机模板
 
-创建完伸缩组，根据提示进入主机配置的创建界面。对伸缩组自动创建的主机配置进行设置。
-
-## 创建菜单
-
-创建菜单和主机的控制台几乎一致，防火墙，弹性ip等信息请用户根据实际情况填写，保证创建出的主机可用。
-
-![](http://uas-doc.cn-bj.ufileos.com/uas-config001.png)
+## 创建主机模板
+请先在[主机启动模板](https://console.ucloud.cn/uhost/uhost_template)新建模板,注意镜像需要配置为自制镜像。
+![](/images/uhost_template_2.png)
+![](/images/uhost_template_3.png)
 
 
+
+
+## 伸缩组绑定主机模板
+
+创建完伸缩组，根据提示或者在列表页点击"绑定主机模板"进入主机模板的绑定页面。对伸缩组自动创建的主机配置进行设置。
+
+![](/images/uhost_template_1.png)
+
+![](/images/uhost_template.png)
+
+注：绑定主机模板后，伸缩组的最大最小值的约束就会生效，所以如果暂时不想创建主机，可以设置最大最小值都为0。

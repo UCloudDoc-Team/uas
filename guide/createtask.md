@@ -6,7 +6,8 @@
 
 2 伸缩组需要自制镜像，请确保已有可用的主机镜像供后续创建主机使用。
 
-![](http://uas-doc.cn-bj.ufileos.com/uas-create001.png)
+3 除4层CLB和全端口NLB外的负载均衡均支持自定义节点转发端口
+![](/images/create_group.png)
 
 ## 注意
 
