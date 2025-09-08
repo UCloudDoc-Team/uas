@@ -3,6 +3,8 @@
 * [概览](/uas/README)
 * 产品简介
     * [什么是弹性伸缩](/uas/introduction/concept)
+* 开始使用
+    * [快速入门](/uas/guide/quickstart)
 * 操作指南
     * [创建伸缩组](/uas/guide/createtask)
     * [绑定主机模板](/uas/guide/createhost)
