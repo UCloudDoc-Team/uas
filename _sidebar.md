@@ -7,7 +7,7 @@
 
 - 开始使用
 
-  - [快速入门](/uas/guide/quickstart.md)
+  - [快速使用 UAS](./guide/quickstart.md)
 
 - 操作指南
 
