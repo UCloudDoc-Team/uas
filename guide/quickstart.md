@@ -75,5 +75,3 @@ curl http://localhost
 ## 验证服务
 
 1. 点击负载均衡，点击之前创建的网络型负载均衡，查看之前购买的 `Nginx-Service` 的公网 IP，访问公网 IP，查看服务是否正常运行。
-
-![验证服务](/images/nginx_test_2.png)
