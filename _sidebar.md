@@ -7,7 +7,8 @@
 
 - 开始使用
 
-  - [快速使用 UAS](./guide/quickstart.md)
+  - [快速使用 UAS](/uas/guide/quickstart.md)
+  - [产品优势](/uas/guide/benefits.md)
 
 - 操作指南
 
