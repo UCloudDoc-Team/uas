@@ -1,14 +1,14 @@
 <div class="sidebar_title icon-product__uas" title="弹性伸缩 UAS">弹性伸缩 UAS</div>
 
 - [概览](/uas/README.md)
-- 产品简介
+- 产品介绍
 
   - [什么是弹性伸缩](/uas/introduction/concept.md)
+  - [产品优势](/uas/guide/benefits.md)
 
-- 开始使用
+- 快速开始
 
   - [快速使用 UAS](/uas/guide/quickstart.md)
-  - [产品优势](/uas/guide/benefits.md)
 
 - 操作指南
 

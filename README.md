@@ -2,14 +2,14 @@
 
 UAS 弹性伸缩旨在为客户提供自动扩缩容以及服务高可用能力。
 
-## 产品简介
+## 产品介绍
 
 - [什么是弹性伸缩](./introduction/concept.md)
+- [产品优势](./guide/benefits.md)
 
 ## 快速开始
 
 - [快速使用 UAS](./guide/quickstart.md)
-- [产品优势](./guide/benefits.md)
 
 ## 操作指南
 
