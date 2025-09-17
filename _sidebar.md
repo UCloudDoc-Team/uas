@@ -10,13 +10,16 @@
 
   - [快速使用 UAS](/uas/guide/quickstart.md)
 
-- 操作指南
+- 伸缩组
 
   - [创建伸缩组](/uas/guide/createtask.md)
+  - [删除伸缩组](/uas/guide/deletetask.md)
+
+- 操作指南
+
   - [绑定主机模板](/uas/guide/createhost.md)
   - [启动伸缩规则](/uas/guide/startrules.md)
   - [伸缩组管理](/uas/guide/lbuhost.md)
-  - [删除伸缩组](/uas/guide/deletetask.md)
   - [消息订阅](/uas/guide/message.md)
   - [定时任务](/uas/guide/schedule.md)
 
