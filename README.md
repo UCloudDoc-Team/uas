@@ -13,24 +13,24 @@ UAS 弹性伸缩旨在为客户提供自动扩缩容以及服务高可用能力�
 
 ## 伸缩组
 
-- [创建伸缩组](/uas/guide/createtask)
-- [删除伸缩组](/uas/guide/deletetask.md)
-- [伸缩组管理](/uas/guide/autoscaling.md)
+- [创建伸缩组](./guide/createtask)
+- [删除伸缩组](./guide/deletetask.md)
+- [伸缩组管理](./guide/autoscaling.md)
 
 ## 规则信息
 
-    - [健康检查](/uas/guide/health.md)
-    - [CPU目标检查](/uas/guide/rule.md)
+    - [健康检查](./guide/health.md)
+    - [CPU目标检查](./guide/rule.md)
 
 ## 定时任务
 
-    - [定时任务](/uas/guide/schedule.md)
+    - [定时任务](./guide/schedule.md)
 
 ## 关联组件
 
-    - [在弹性伸缩使用主机模板](/uas/guide/createhost.md)
-    - [在弹性伸缩使用负载均衡](/uas/guide/startrules.md)
-    - [消息订阅](/uas/guide/message.md)
+    - [在弹性伸缩使用主机模板](./guide/createhost.md)
+    - [在弹性伸缩使用负载均衡](./guide/startrules.md)
+    - [消息订阅](./guide/message.md)
 
 ## FAQ
 
