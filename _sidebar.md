@@ -14,13 +14,21 @@
 
   - [创建伸缩组](/uas/guide/createtask.md)
   - [删除伸缩组](/uas/guide/deletetask.md)
+  - [伸缩组管理](/uas/guide/autoscaling.md)
 
-- 操作指南
+- 规则信息
 
-  - [绑定主机模板](/uas/guide/createhost.md)
-  - [启动伸缩规则](/uas/guide/startrules.md)
-  - [伸缩组管理](/uas/guide/lbuhost.md)
+  - [健康检查](/uas/guide/health.md)
+  - [CPU目标检查](/uas/guide/rule.md)
+
+- 定时任务
+
+    - [定时任务](/uas/guide/schedule.md)
+
+- 关联组件
+
+  - [在弹性伸缩使用主机模板](/uas/guide/createhost.md)
+  - [在弹性伸缩使用负载均衡](/uas/guide/startrules.md)
   - [消息订阅](/uas/guide/message.md)
-  - [定时任务](/uas/guide/schedule.md)
 
 - [FAQ](/uas/faq.md)
