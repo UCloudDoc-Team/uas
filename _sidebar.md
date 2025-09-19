@@ -19,7 +19,7 @@
 - 规则信息
 
   - [健康检查](/uas/guide/health.md)
-  - [CPU目标检查](/uas/guide/rule.md)
+  - [CPU目标检查 ( CPU 目标跟踪伸缩策略) ](/uas/guide/rule.md)
 
 - 定时任务
 
