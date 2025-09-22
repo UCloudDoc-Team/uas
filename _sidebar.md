@@ -23,12 +23,12 @@
 
 - 定时任务
 
-    - [定时任务](/uas/guide/schedule.md)
+    - [定时任务](/uas/guide/cron.md)
 
 - 关联组件
 
-  - [在弹性伸缩使用主机模板](/uas/guide/createhost.md)
-  - [在弹性伸缩使用负载均衡](/uas/guide/startrules.md)
+  - [在弹性伸缩使用主机模板](/uas/guide/uhost.md)
+  - [在弹性伸缩使用负载均衡](/uas/guide/lb.md)
   - [消息订阅](/uas/guide/message.md)
 
 - [FAQ](/uas/faq.md)
