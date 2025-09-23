@@ -4,33 +4,33 @@ UAS 弹性伸缩旨在为客户提供自动扩缩容以及服务高可用能力�
 
 ## 产品介绍
 
-- [什么是弹性伸缩](./introduction/concept.md)
-- [产品优势](./guide/benefits.md)
+- [什么是弹性伸缩](/uas/introduction/concept.md)
+- [产品优势](/uas/guide/benefits.md)
 
 ## 快速开始
 
-- [快速使用 UAS](./guide/quickstart.md)
+- [快速使用 UAS](/uas/guide/quickstart.md)
 
 ## 伸缩组
 
-- [创建伸缩组](./guide/createtask)
-- [删除伸缩组](./guide/deletetask.md)
-- [伸缩组管理](./guide/autoscaling.md)
+- [创建伸缩组](/uas/guide/createtask)
+- [删除伸缩组](/uas/guide/deletetask.md)
+- [伸缩组管理](/uas/guide/autoscaling.md)
 
 ## 规则信息
 
-- [健康检查](./guide/health.md)
-- [CPU目标检查 (以 CPU 为目标的动态扩缩容) ](./guide/rule.md)
+- [健康检查](/uas/guide/health.md)
+- [CPU目标检查 (以 CPU 为目标的动态扩缩容) ](/uas/guide/rule.md)
 
 ## 定时任务
 
-- [定时任务](./guide/cron.md)
+- [定时任务](/uas/guide/cron.md)
 
 ## 关联组件
 
-- [在弹性伸缩使用主机模板](./guide/uhost.md)
-- [在弹性伸缩使用负载均衡](./guide/lb.md)
-- [消息订阅](./guide/message.md)
+- [在弹性伸缩使用主机模板](/uas/guide/uhost.md)
+- [在弹性伸缩使用负载均衡](/uas/guide/lb.md)
+- [消息订阅](/uas/guide/message.md)
 
 ## FAQ
 
