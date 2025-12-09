@@ -16,11 +16,13 @@
   - [创建伸缩组](/uas/guide/createtask.md)
   - [删除伸缩组](/uas/guide/deletetask.md)
   - [伸缩组管理](/uas/guide/autoscaling.md)
+  - [预热时间](/uas/guide/warmup.md)
+  - [主机模板支持说明](/uas/guide/supportedfield.md)
 
 - 规则信息
 
   - [健康检查](/uas/guide/health.md)
-  - [CPU目标检查 ( CPU 目标跟踪伸缩策略) ](/uas/guide/rule.md)
+  - [CPU目标检查](/uas/guide/rule.md)
 
 - 定时任务
 
