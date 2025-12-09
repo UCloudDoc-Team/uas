@@ -2,103 +2,288 @@
 本文档详细列出主机模板在UAS中的支持字段，按模块分类，包含字段名称和描述说明，为伸缩组创建、模板配置提供标准化参考依据。
 
 ### 1. 核心元数据 (Meta)
-|  字段           |  说明                     |
-|-----------------|--------------------------|
-|  UTemplateId    |  模板 ID                  |
-|  UTVersion      |  版本号                   |
-|  Default        |  默认版本标记              |
-|  DefaultVersion |  默认版本号               |
-|  BindResource   |  绑定该模板的资源 ID 列表  |
-|  CreateTime     |  创建时间                 |
+<table width="100%" border="0">
+  <tr>
+    <td width="30%" align="left"><strong>字段</strong></td>
+    <td width="70%" align="left"><strong>说明</strong></td>
+  </tr>
+  <tr>
+    <td>UTemplateId</td>
+    <td>模板 ID</td>
+  </tr>
+  <tr>
+    <td>UTVersion</td>
+    <td>版本号</td>
+  </tr>
+  <tr>
+    <td>Default</td>
+    <td>默认版本标记</td>
+  </tr>
+  <tr>
+    <td>DefaultVersion</td>
+    <td>默认版本号</td>
+  </tr>
+  <tr>
+    <td>BindResource</td>
+    <td>绑定该模板的资源 ID 列表</td>
+  </tr>
+  <tr>
+    <td>CreateTime</td>
+    <td>创建时间</td>
+  </tr>
+</table>
 
 ### 2. 基础与计费 (Basic)
-|  字段           |  说明                     |
-|-----------------|--------------------------|
-|  Region         |  地域                     |
-|  Zone           |  可用区                   |
-|  ChargeType     |  付费类型                 |
-|  Quantity       |  购买时长                 |
+<table width="100%" border="0">
+  <tr>
+    <td width="30%" align="left"><strong>字段</strong></td>
+    <td width="70%" align="left"><strong>说明</strong></td>
+  </tr>
+  <tr>
+    <td>Region</td>
+    <td>地域</td>
+  </tr>
+  <tr>
+    <td>Zone</td>
+    <td>可用区</td>
+  </tr>
+  <tr>
+    <td>ChargeType</td>
+    <td>付费类型</td>
+  </tr>
+  <tr>
+    <td>Quantity</td>
+    <td>购买时长</td>
+  </tr>
+</table>
 
 ### 3. 计算与系统 (Compute & OS)
 #### （1）规格
-|  字段               |  说明                     |
-|---------------------|--------------------------|
-|  CPU                |  CPU                     |
-|  Memory             |  内存大小                 |
-|  MachineType        |  机型                     |
-|  MinimalCpuPlatform |  最低CPU平台              |
+<table width="100%" border="0">
+  <tr>
+    <td width="30%" align="left"><strong>字段</strong></td>
+    <td width="70%" align="left"><strong>说明</strong></td>
+  </tr>
+  <tr>
+    <td>CPU</td>
+    <td>CPU</td>
+  </tr>
+  <tr>
+    <td>Memory</td>
+    <td>内存大小</td>
+  </tr>
+  <tr>
+    <td>MachineType</td>
+    <td>机型</td>
+  </tr>
+  <tr>
+    <td>MinimalCpuPlatform</td>
+    <td>最低CPU平台</td>
+  </tr>
+</table>
 
 #### （2）镜像
-|  字段           |  说明                     |
-|-----------------|--------------------------|
-|  ImageId        |  镜像ID                   |
-|  ImageName      |  镜像名称                 |
-|  ImageType      |  镜像类型                 |
-|  OsName         |  操作系统名称             |
+<table width="100%" border="0">
+  <tr>
+    <td width="30%" align="left"><strong>字段</strong></td>
+    <td width="70%" align="left"><strong>说明</strong></td>
+  </tr>
+  <tr>
+    <td>ImageId</td>
+    <td>镜像ID</td>
+  </tr>
+  <tr>
+    <td>ImageName</td>
+    <td>镜像名称</td>
+  </tr>
+  <tr>
+    <td>ImageType</td>
+    <td>镜像类型</td>
+  </tr>
+  <tr>
+    <td>OsName</td>
+    <td>操作系统名称</td>
+  </tr>
+</table>
 
 #### （3）监控
-|  字段                 |  说明                     |
-|-----------------------|--------------------------|
-|  UboltAgentReinforce  |  是否开启主机监控（True/False） |
-|  UboltAgent           |  监控代理开关             |
+<table width="100%" border="0">
+  <tr>
+    <td width="30%" align="left"><strong>字段</strong></td>
+    <td width="70%" align="left"><strong>说明</strong></td>
+  </tr>
+  <tr>
+    <td>UboltAgentReinforce</td>
+    <td>是否开启主机监控（True/False）</td>
+  </tr>
+  <tr>
+    <td>UboltAgent</td>
+    <td>监控代理开关</td>
+  </tr>
+</table>
 
 ### 4. 存储配置 (Storage)
-|  字段                 |  说明                     |
-|-----------------------|--------------------------|
-|  Disks                |  磁盘数组                 |
-|  AutoDataDiskInit     |  是否自动挂载数据盘开关    |
+<table width="100%" border="0">
+  <tr>
+    <td width="30%" align="left"><strong>字段</strong></td>
+    <td width="70%" align="left"><strong>说明</strong></td>
+  </tr>
+  <tr>
+    <td>Disks</td>
+    <td>磁盘数组</td>
+  </tr>
+  <tr>
+    <td>AutoDataDiskInit</td>
+    <td>是否自动挂载数据盘开关</td>
+  </tr>
+</table>
 
 #### （1）基础配置
-|  字段           |  说明                     |
-|-----------------|--------------------------|
-|  Type           |  磁盘类型                 |
-|  Size           |  磁盘大小（GB）           |
-|  IsBoot         |  是否系统盘               |
+<table width="100%" border="0">
+  <tr>
+    <td width="30%" align="left"><strong>字段</strong></td>
+    <td width="70%" align="left"><strong>说明</strong></td>
+  </tr>
+  <tr>
+    <td>Type</td>
+    <td>磁盘类型</td>
+  </tr>
+  <tr>
+    <td>Size</td>
+    <td>磁盘大小（GB）</td>
+  </tr>
+  <tr>
+    <td>IsBoot</td>
+    <td>是否系统盘</td>
+  </tr>
+</table>
 
 #### （2）进阶配置
-|  字段           |  说明                     |
-|-----------------|--------------------------|
-|  BackupMode     |  备份策略                 |
-|  BackupType     |  备份方案                 |
-|  SnapshotId     |  快照ID                   |
+<table width="100%" border="0">
+  <tr>
+    <td width="30%" align="left"><strong>字段</strong></td>
+    <td width="70%" align="left"><strong>说明</strong></td>
+  </tr>
+  <tr>
+    <td>BackupMode</td>
+    <td>备份策略</td>
+  </tr>
+  <tr>
+    <td>BackupType</td>
+    <td>备份方案</td>
+  </tr>
+  <tr>
+    <td>SnapshotId</td>
+    <td>快照ID</td>
+  </tr>
+</table>
 
 ### 5. 网络配置 (Network)
 #### （1）内网配置
-|  字段           |  说明                     |
-|-----------------|--------------------------|
-|  VpcId          |  私有网络ID               |
-|  SubnetId       |  子网ID                   |
+<table width="100%" border="0">
+  <tr>
+    <td width="30%" align="left"><strong>字段</strong></td>
+    <td width="70%" align="left"><strong>说明</strong></td>
+  </tr>
+  <tr>
+    <td>VpcId</td>
+    <td>私有网络ID</td>
+  </tr>
+  <tr>
+    <td>SubnetId</td>
+    <td>子网ID</td>
+  </tr>
+</table>
 
 #### （2）网络特性
-|  字段           |  说明                     |
-|-----------------|--------------------------|
-|  Features.UNI   |  是否开启虚拟网卡         |
-|  NetCapability  |  网络增强                 |
+<table width="100%" border="0">
+  <tr>
+    <td width="30%" align="left"><strong>字段</strong></td>
+    <td width="70%" align="left"><strong>说明</strong></td>
+  </tr>
+  <tr>
+    <td>Features.UNI</td>
+    <td>是否开启虚拟网卡</td>
+  </tr>
+  <tr>
+    <td>NetCapability</td>
+    <td>网络增强</td>
+  </tr>
+</table>
 
 #### （3）公网配置（NetworkInterface.EIP）
-|  字段             |  说明                     |
-|-------------------|--------------------------|
-|  OperatorName     | 线路（BGP/International） |
-|  Bandwith         | 带宽值 (Mbps)             |
-|  PayMode          | 计费模式（Traffic/Bandwidth/ShareBandwidth）|
-|  ShareBandwidthID | 共享带宽 ID               |
+<table width="100%" border="0">
+  <tr>
+    <td width="30%" align="left"><strong>字段</strong></td>
+    <td width="70%" align="left"><strong>说明</strong></td>
+  </tr>
+  <tr>
+    <td>OperatorName</td>
+    <td>线路（BGP/International）</td>
+  </tr>
+  <tr>
+    <td>Bandwith</td>
+    <td>带宽值 (Mbps)</td>
+  </tr>
+  <tr>
+    <td>PayMode</td>
+    <td>计费模式（Traffic/Bandwidth/ShareBandwidth）</td>
+  </tr>
+  <tr>
+    <td>ShareBandwidthID</td>
+    <td>共享带宽 ID</td>
+  </tr>
+</table>
 
 ### 6. 安全与防护 (Security)
 #### （1）防火墙与安全组
-|  字段           |  说明                     |
-|-----------------|--------------------------|
-|  SecurityGroupId|  防火墙 ID                |
-|  SecGroupId     |  安全组（数组），包含 Id 和 Priority（优先级） |
+<table width="100%" border="0">
+  <tr>
+    <td width="30%" align="left"><strong>字段</strong></td>
+    <td width="70%" align="left"><strong>说明</strong></td>
+  </tr>
+  <tr>
+    <td>SecurityGroupId</td>
+    <td>防火墙 ID</td>
+  </tr>
+  <tr>
+    <td>SecGroupId</td>
+    <td>安全组（数组），包含 Id 和 Priority（优先级）</td>
+  </tr>
+</table>
 
 #### （2）其他安全配置
-|  字段           |  说明                     |
-|-----------------|--------------------------|
-|  SecurityMode   |  安全规则模式             |
-|  SecurityReinforce |  安全加固开关           |
-|  IsolationGroup |  隔离组                   |
+<table width="100%" border="0">
+  <tr>
+    <td width="30%" align="left"><strong>字段</strong></td>
+    <td width="70%" align="left"><strong>说明</strong></td>
+  </tr>
+  <tr>
+    <td>SecurityMode</td>
+    <td>安全规则模式</td>
+  </tr>
+  <tr>
+    <td>SecurityReinforce</td>
+    <td>安全加固开关</td>
+  </tr>
+  <tr>
+    <td>IsolationGroup</td>
+    <td>隔离组</td>
+  </tr>
+</table>
 
 ### 7. 高级特性 (Advanced)
-|  字段           |  说明                     |
-|-----------------|--------------------------|
-|  UserData       |  自定义启动脚本 (Base64)  |
-|  HotplugFeature |  热升级特性 (String)      |
+<table width="100%" border="0">
+  <tr>
+    <td width="30%" align="left"><strong>字段</strong></td>
+    <td width="70%" align="left"><strong>说明</strong></td>
+  </tr>
+  <tr>
+    <td>UserData</td>
+    <td>自定义启动脚本 (Base64)</td>
+  </tr>
+  <tr>
+    <td>HotplugFeature</td>
+    <td>热升级特性 (String)</td>
+  </tr>
+</table>
