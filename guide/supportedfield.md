@@ -12,16 +12,28 @@
     <td>模板 ID</td>
   </tr>
   <tr>
+    <td>Name</td>
+    <td>模板名称</td>
+  </tr>
+  <tr>
+    <td>Remark</td>
+    <td>描述信息</td>
+  </tr>
+  <tr>
     <td>UTVersion</td>
     <td>版本号</td>
   </tr>
   <tr>
     <td>Default</td>
-    <td>默认版本标记</td>
+    <td>是否为默认版本</td>
   </tr>
   <tr>
     <td>DefaultVersion</td>
     <td>默认版本号</td>
+  </tr>
+  <tr>
+    <td>LastVersion</td>
+    <td>最新版本号</td>
   </tr>
   <tr>
     <td>BindResource</td>
@@ -291,4 +303,5 @@
     <td>热升级特性 (String)</td>
   </tr>
 </table>
+
 
