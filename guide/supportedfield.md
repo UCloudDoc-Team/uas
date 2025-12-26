@@ -92,10 +92,6 @@
     <td>MachineType</td>
     <td>机型</td>
   </tr>
-  <tr>
-    <td>MinimalCpuPlatform</td>
-    <td>最低CPU平台</td>
-  </tr>
 </table>
 
 #### （2）镜像
@@ -122,22 +118,6 @@
   </tr>
 </table>
 
-#### （3）监控
-<table width="100%" border="0">
-  <tr>
-    <td width="30%" align="left"><strong>字段</strong></td>
-    <td width="70%" align="left"><strong>说明</strong></td>
-  </tr>
-  <tr>
-    <td>UboltAgentReinforce</td>
-    <td>是否开启主机监控（True/False）</td>
-  </tr>
-  <tr>
-    <td>UboltAgent</td>
-    <td>监控代理开关</td>
-  </tr>
-</table>
-
 ### 4. 存储配置 (Storage)
 <table width="100%" border="0">
   <tr>
@@ -151,14 +131,6 @@
   <tr>
     <td>AutoDataDiskInit</td>
     <td>是否自动挂载数据盘开关</td>
-  </tr>
-</table>
-
-#### （1）基础配置
-<table width="100%" border="0">
-  <tr>
-    <td width="30%" align="left"><strong>字段</strong></td>
-    <td width="70%" align="left"><strong>说明</strong></td>
   </tr>
   <tr>
     <td>Type</td>
@@ -174,25 +146,8 @@
   </tr>
 </table>
 
-#### （2）进阶配置
-<table width="100%" border="0">
-  <tr>
-    <td width="30%" align="left"><strong>字段</strong></td>
-    <td width="70%" align="left"><strong>说明</strong></td>
-  </tr>
-  <tr>
-    <td>BackupMode</td>
-    <td>备份策略</td>
-  </tr>
-  <tr>
-    <td>BackupType</td>
-    <td>备份方案</td>
-  </tr>
-  <tr>
-    <td>SnapshotId</td>
-    <td>快照ID</td>
-  </tr>
-</table>
+
+
 
 ### 5. 网络配置 (Network)
 #### （1）内网配置
@@ -245,14 +200,9 @@
     <td>PayMode</td>
     <td>计费模式（Traffic/Bandwidth/ShareBandwidth）</td>
   </tr>
-  <tr>
-    <td>ShareBandwidthID</td>
-    <td>共享带宽 ID</td>
-  </tr>
 </table>
 
 ### 6. 安全与防护 (Security)
-#### （1）防火墙与安全组
 <table width="100%" border="0">
   <tr>
     <td width="30%" align="left"><strong>字段</strong></td>
@@ -268,41 +218,7 @@
   </tr>
 </table>
 
-#### （2）其他安全配置
-<table width="100%" border="0">
-  <tr>
-    <td width="30%" align="left"><strong>字段</strong></td>
-    <td width="70%" align="left"><strong>说明</strong></td>
-  </tr>
-  <tr>
-    <td>SecurityMode</td>
-    <td>安全规则模式</td>
-  </tr>
-  <tr>
-    <td>SecurityReinforce</td>
-    <td>安全加固开关</td>
-  </tr>
-  <tr>
-    <td>IsolationGroup</td>
-    <td>隔离组</td>
-  </tr>
-</table>
 
-### 7. 高级特性 (Advanced)
-<table width="100%" border="0">
-  <tr>
-    <td width="30%" align="left"><strong>字段</strong></td>
-    <td width="70%" align="left"><strong>说明</strong></td>
-  </tr>
-  <tr>
-    <td>UserData</td>
-    <td>自定义启动脚本 (Base64)</td>
-  </tr>
-  <tr>
-    <td>HotplugFeature</td>
-    <td>热升级特性 (String)</td>
-  </tr>
-</table>
 
 
 
