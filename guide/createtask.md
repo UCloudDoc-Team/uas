@@ -16,7 +16,7 @@
 1. 用户登陆[弹性伸缩页面](https://console.ucloud.cn/uas/manage)。
 2. 点击`创建伸缩组`按钮。
 ![添加伸缩组1](https://www-s.ucloud.cn/2025/12/257b84219ca9011dec657566dbe91e1e_1766634769279.png)
-![添加伸缩组2](https://www-s.ucloud.cn/2025/12/41acfd2a2ffab2141b66b3549b0dcea2_1766634769282.png)
+![添加伸缩组2](https://www-s.ucloud.cn/2025/12/7bf8d4e3fe1d3dfde88b8d3ee37eae06_1766974900702.png)
 3. 选择伸缩组的最大与最小主机数量，冷却时间周期以及预热时间。
 4. 选择所属VPC与所属子网，系统优先使用固定VPC及子网创建主机资源。
 5. 在**模板选择**页面上，填写一下参数：
