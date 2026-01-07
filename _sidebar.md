@@ -17,7 +17,6 @@
   - [删除伸缩组](/uas/guide/deletetask.md)
   - [伸缩组管理](/uas/guide/autoscaling.md)
   - [预热时间](/uas/guide/warmup.md)
-  - [主机模板支持字段](/uas/guide/supportedfield.md)
 
 - 规则信息
 
