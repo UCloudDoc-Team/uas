@@ -35,7 +35,7 @@ UAS 弹性伸缩旨在为客户提供自动扩缩容以及服务高可用能力�
 
 ## 生命周期挂钩
 
-- [生命周期挂钩](/uas/guide/lifecyclehook.md)
+- [生命周期挂钩概述](/uas/guide/lifecyclehook.md)
 
 ## FAQ
 
