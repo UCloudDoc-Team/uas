@@ -35,6 +35,6 @@
 
 - 生命周期挂钩
 
-    - [生命周期挂钩](/uas/guide/lifecyclehook.md)
+    - [生命周期挂钩概述](/uas/guide/lifecyclehook.md)
 
 - [FAQ](/uas/faq.md)
