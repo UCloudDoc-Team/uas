@@ -33,4 +33,8 @@
   - [在弹性伸缩使用负载均衡](/uas/guide/lb.md)
   - [消息订阅](/uas/guide/message.md)
 
+- 生命周期挂钩
+
+    - [生命周期挂钩](/uas/guide/lifecyclehook.md)
+
 - [FAQ](/uas/faq.md)
