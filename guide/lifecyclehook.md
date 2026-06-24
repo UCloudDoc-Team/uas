@@ -38,7 +38,7 @@
 执行结果：
 - 所有挂钩均为 **CONTINUE**：主机进入 **Running**。
 - 任意挂钩为 **REJECT**：本次扩容被拒绝，主机进入删除流程。
-![扩容流程](images/lifecyclehook.png)
+![扩容流程](/images/lifecyclehook.png)
 
 
 ## 缩容流程
@@ -50,7 +50,7 @@
 5.等待所有挂钩主动完成或超时。
 6.挂钩全部结束后，继续停止和销毁主机。
 当前实现中，缩容挂钩的 **CONTINUE** 和 **REJECT** 都会继续删除主机。**REJECT** 不会让主机回滚到 **Running**。
-![缩容流程](images/lifecyclehook1.png)
+![缩容流程](/images/lifecyclehook2.png)
 
 
 
