@@ -38,6 +38,7 @@
     - [生命周期挂钩概述](/uas/guide/lifecyclehook.md)
     - [创建生命周期挂钩](/uas/guide/createlifecyclehook.md)
     - [手动结束挂起](/uas/guide/completelifecyclehook.md)
+    - [编辑生命周期挂钩](/uas/guide/editlifecyclehook.md)
     - [删除生命周期挂钩](/uas/guide/deletelifecyclehook.md)
 
 
